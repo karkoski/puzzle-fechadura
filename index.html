@@ -4,13 +4,13 @@
 'use strict';
 // Layout corrigido e validado por busca exaustiva de estados; solução mínima em 5 deslocamentos.
 const initial=[
-{id:'CORE',x:0,y:2,w:2,h:1},
-{id:'A',x:2,y:0,w:1,h:3},
-{id:'B',x:3,y:0,w:1,h:2},
-{id:'C',x:4,y:1,w:1,h:3},
-{id:'D',x:2,y:3,w:2,h:1},
-{id:'E',x:0,y:0,w:2,h:1},
-{id:'F',x:0,y:3,w:1,h:2}
+  {id:'CORE',x:0,y:2,w:2,h:1},
+  {id:'A',x:2,y:0,w:1,h:3},
+  {id:'B',x:3,y:0,w:1,h:2},
+  {id:'C',x:4,y:1,w:1,h:3},
+  {id:'D',x:2,y:3,w:2,h:1},
+  {id:'E',x:0,y:0,w:2,h:1},
+  {id:'F',x:0,y:3,w:1,h:2}
 ];
 let pieces,moves,selected,finished,drag=null;
 const board=document.getElementById('board'),note=document.getElementById('note');
